@@ -1,0 +1,86 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  /* height: 100vh; */
+  overflow: hidden;
+  position: relative;
+}
+
+.video {
+  max-width: 100%;
+  width: 800px;
+  margin: 0 auto;
+}
+
+.controlsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  background-color: transparent;
+  z-index: 20;
+  position: absolute;
+  bottom: 8%;
+  left: 0;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 33rem;
+  margin: auto;
+}
+
+.controlsIcon {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  margin-left: 9rem;
+  margin-right: 9rem;
+}
+
+.controlsIcon--small {
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+}
+
+.fullScreen {
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+}
+
+.timecontrols {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 4rem;
+  width: 65vw;
+}
+
+.time_progressbarContainer {
+  background-color: gray;
+  border-radius: 15px;
+  width: 45vw;
+  height: 5px;
+  z-index: 30;
+  position: relative;
+  margin: 0 20px;
+}
+
+.time_progressBar {
+  border-radius: 15px;
+  background-color: #43b6a8;
+  height: 100%;
+}
+
+.controlsTime {
+  color: black;
+  font-weight: 700;
+}
